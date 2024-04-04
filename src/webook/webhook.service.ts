@@ -12,6 +12,6 @@ export class WebhookService {
       'https://webhook.site/dc57fb95-d0e5-4fb7-9c95-1da986fd7a9a';
 
     // Send the data to the webhook
-    await firstValueFrom(this.httpService.post(webhookUrl, data));
+    // await firstValueFrom(this.httpService.post(webhookUrl, data));
   }
 }
